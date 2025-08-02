@@ -38,6 +38,11 @@
       opacity: 1;
     }
   </style>
+  <script>
+    if (navigator.userAgent.match(/Android/i)||navigator.userAgent.match(/iPhone/i)){
+      window.location.replace("./mobile.html");
+    }
+  </script>
 </head>
 <body class="flex column">
   <img src="./img77.webp" width="100%" height="100%" style="z-index: 1;position: fixed;"/>
